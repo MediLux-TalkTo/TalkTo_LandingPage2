@@ -33,8 +33,9 @@ const FinalCTA = () => {
 
           {/* Kakao */}
           <a
-            id="kakao"
-            href="#"
+            href="http://pf.kakao.com/_nNwwX"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex h-[58px] items-center justify-center gap-3 rounded-full bg-[#FFE500] px-9 text-[16px] font-bold text-[#241F20] shadow-[0_10px_25px_rgba(255,229,0,0.22)] transition duration-200 hover:-translate-y-0.5"
           >
             <svg
@@ -44,7 +45,6 @@ const FinalCTA = () => {
             >
               <path d="M12 3C6.5 3 2 6.5 2 10.8c0 2.8 1.9 5.2 4.7 6.6L5.5 21l4.2-2.4c.7.1 1.5.2 2.3.2 5.5 0 10-3.5 10-8S17.5 3 12 3Z" />
             </svg>
-
             카카오톡 채널 추가하기
           </a>
         </div>
