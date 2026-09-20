@@ -1,43 +1,46 @@
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 z-50 w-full bg-white/80 backdrop-blur-md">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <header className="absolute left-0 top-0 z-50 w-full">
+      <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-8 md:px-16 lg:px-20">
         {/* Logo */}
-        <a href="#" className="text-xl font-bold">
-          LOGO
+        <a
+          href="#"
+          className="flex items-center gap-2 text-[20px] font-bold text-[#16C784]"
+        >
+          <span className="text-[24px] font-black">t</span>
+          <span>TalkTo</span>
         </a>
 
         {/* Navigation */}
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-9 md:flex">
           <a
-            href="#features"
-            className="text-sm text-gray-600 transition hover:text-black"
+            href="#service"
+            className="text-[15px] font-medium text-[#77776F] transition hover:text-[#16C784]"
           >
-            Features
+            서비스 소개
           </a>
 
           <a
-            href="#about"
-            className="text-sm text-gray-600 transition hover:text-black"
+            href="#how"
+            className="text-[15px] font-medium text-[#77776F] transition hover:text-[#16C784]"
           >
-            About
+            만드는 법
           </a>
 
           <a
-            href="#contact"
-            className="text-sm text-gray-600 transition hover:text-black"
+            href="#pricing"
+            className="text-[15px] font-medium text-[#77776F] transition hover:text-[#16C784]"
           >
-            Contact
+            요금
+          </a>
+
+          <a
+            href="#register"
+            className="rounded-full bg-[#20C989] px-6 py-3 text-[15px] font-semibold text-white transition hover:bg-[#18b87b]"
+          >
+            사전 등록하기
           </a>
         </nav>
-
-        {/* CTA */}
-        <a
-          href="#cta"
-          className="rounded-full bg-black px-5 py-2 text-sm font-medium text-white transition hover:bg-gray-800"
-        >
-          시작하기
-        </a>
       </div>
     </header>
   );

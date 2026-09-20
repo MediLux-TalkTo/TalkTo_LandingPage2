@@ -6,4 +6,22 @@ html {
 
 body {
   margin: 0;
+  font-family:
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color: #181a18;
+  background: #fffcf4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+a {
+  font-family: inherit;
 }

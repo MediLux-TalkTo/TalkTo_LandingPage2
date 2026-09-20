@@ -1,21 +1,32 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Features from "../components/Features";
-import CTA from "../components/CTA";
-import Footer from "../components/Footer";
+import HowItWorksSection from "../components/HowItWorksSection";
+import MemoriesSection from "../components/MemoriesSection";
+import PricingSection from "../components/PricingSection";
+import ProblemSection from "../components/ProblemSection";
+import TargetSection from "../components/TargetSection";
+import VoiceSection from "../components/VoiceSection";
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div className="overflow-x-hidden bg-[#FFFCF4]">
       <Header />
 
       <main>
         <Hero />
-        <Features />
-        <CTA />
-      </main>
 
-      <Footer />
+        <ProblemSection />
+
+        <TargetSection />
+
+        <HowItWorksSection />
+
+        <VoiceSection />
+
+        <MemoriesSection />
+
+        <PricingSection />
+      </main>
     </div>
   );
 };
