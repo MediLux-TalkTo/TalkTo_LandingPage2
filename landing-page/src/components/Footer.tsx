@@ -1,29 +1,25 @@
 const Footer = () => {
   return (
-    <footer id="contact" className="border-t border-gray-200 px-6 py-10">
-      <div className="mx-auto flex max-w-7xl flex-col justify-between gap-6 md:flex-row md:items-center">
-        <div>
-          <p className="font-bold">
-            LOGO
+    <footer className="relative px-6 pb-10">
+      <div className="mx-auto max-w-[1320px]">
+        {/* Line */}
+        <div className="h-px w-full bg-[#DFE5DC]" />
+
+        <div className="flex flex-col gap-5 py-7 md:flex-row md:items-center md:justify-between">
+          {/* Logo */}
+          <a
+            href="#"
+            className="flex items-center gap-1.5 text-[14px] font-bold text-[#16C784]"
+          >
+            <span className="text-[17px] font-black">t</span>
+            <span>TalkTo</span>
+          </a>
+
+          {/* Copyright */}
+          <p className="text-[12px] text-[#A1A39D]">
+            © 2026 TalkTo · 베타 화면과 혜택은 운영 과정에서 일부 조정될 수
+            있습니다.
           </p>
-
-          <p className="mt-2 text-sm text-gray-500">
-            © 2026 Your Service. All rights reserved.
-          </p>
-        </div>
-
-        <div className="flex gap-6 text-sm text-gray-500">
-          <a href="#" className="transition hover:text-black">
-            이용약관
-          </a>
-
-          <a href="#" className="transition hover:text-black">
-            개인정보처리방침
-          </a>
-
-          <a href="#" className="transition hover:text-black">
-            문의하기
-          </a>
         </div>
       </div>
     </footer>

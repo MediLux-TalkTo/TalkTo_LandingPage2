@@ -1,3 +1,6 @@
+import FAQSection from "../components/FAQSection";
+import FinalCTA from "../components/FinalCTA";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import HowItWorksSection from "../components/HowItWorksSection";
@@ -14,19 +17,17 @@ const LandingPage = () => {
 
       <main>
         <Hero />
-
         <ProblemSection />
-
         <TargetSection />
-
         <HowItWorksSection />
-
         <VoiceSection />
-
         <MemoriesSection />
-
         <PricingSection />
+        <FAQSection />
+        <FinalCTA />
       </main>
+
+      <Footer />
     </div>
   );
 };
