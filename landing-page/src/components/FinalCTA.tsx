@@ -25,7 +25,7 @@ const FinalCTA = () => {
         <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
           {/* Pre-register */}
           <a
-            href="#"
+            href="https://tally.so/r/ZjxQXv"
             className="flex h-[58px] items-center justify-center rounded-full bg-[#20C989] px-9 text-[16px] font-bold text-white shadow-[0_10px_25px_rgba(32,201,137,0.25)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#18B87B]"
           >
             사전 등록하기

@@ -34,7 +34,7 @@ const Hero = () => {
             {/* Buttons */}
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
-                href="#register"
+                href="https://tally.so/r/ZjxQXv"
                 className="flex h-[58px] items-center justify-center rounded-full bg-[#20C989] px-8 text-[17px] font-bold text-white shadow-[0_10px_25px_rgba(32,201,137,0.25)] transition hover:-translate-y-0.5 hover:bg-[#18B87B]"
               >
                 사전 등록하기
