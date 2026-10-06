@@ -13,25 +13,29 @@ const plans = [
   {
     name: "Memories",
     price: "3,900원",
-    unit: "월",
+    unit: "월·초기 가족 요금 ",
     description: (
       <>
-        내 페르소나를 만들고
+        내 기억을 계속 쌓아
         <br />
-        나와 대화합니다.
+        페르소나를 키웁니다.
+        <br />
+        목소리 대답 월 30번
       </>
     ),
   },
   {
     name: "Family",
     price: "9,900원",
-    unit: "월",
+    unit: "월·초기 가족 요금",
     recommended: true,
     description: (
       <>
-        가족을 초대해 함께 대화하고,
+        가족 6명이 함께 대화하고,
         <br />
-        가족이 함께 기억을 채웁니다.
+        함께 기억을 채웁니다.
+        <br />
+        목소리 대답 월 200번
       </>
     ),
   },
