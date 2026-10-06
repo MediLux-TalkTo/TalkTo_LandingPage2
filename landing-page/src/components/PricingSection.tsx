@@ -13,7 +13,7 @@ const plans = [
   {
     name: "Memories",
     price: "3,900원",
-    unit: "월·초기 가족 요금 ",
+    unit: "월·초기 가족 요금\n정식 요금 월 7,900원",
     description: (
       <>
         내 기억을 계속 쌓아
@@ -27,7 +27,7 @@ const plans = [
   {
     name: "Family",
     price: "9,900원",
-    unit: "월·초기 가족 요금",
+    unit: "월·초기 가족 요금\n정식 요금 월 19,900원",
     recommended: true,
     description: (
       <>
@@ -119,7 +119,9 @@ const PricingSection = () => {
               </h3>
 
               {plan.unit && (
-                <p className="mt-1 text-[12px] text-[#A5A79F]">{plan.unit}</p>
+                <p className="mt-1 whitespace-pre-line text-[12px] text-[#A5A79F]">
+                  {plan.unit}
+                </p>
               )}
 
               <div className="my-6 h-px w-full bg-[#ECECE7]" />
