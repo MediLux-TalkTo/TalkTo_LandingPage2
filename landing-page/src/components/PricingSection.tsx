@@ -12,7 +12,7 @@ const plans = [
   },
   {
     name: "Memories",
-    price: "9,900원",
+    price: "3,900원",
     unit: "월",
     description: (
       <>
@@ -24,7 +24,7 @@ const plans = [
   },
   {
     name: "Family",
-    price: "24,900원",
+    price: "9,900원",
     unit: "월",
     recommended: true,
     description: (
