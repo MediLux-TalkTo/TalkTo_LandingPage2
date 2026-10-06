@@ -135,7 +135,9 @@ const PricingSection = () => {
 
         {/* Notice */}
         <p className="mt-8 text-center text-[12px] text-[#A2A49D]">
-          구독료는 출시 가격 기준이며, 조정될 수 있어요.
+          초기 가족 요금은 처음 100가족에게 12개월 동안 적용되며, 정식 요금으로
+          바뀌기 전에 미리 알려드리고 동의를 받습니다. 구독료는 출시 가격
+          기준이며, 조정될 수 있어요.
         </p>
       </div>
     </section>
