@@ -1,14 +1,16 @@
+import talktoLogo from "../assets/talkto-logo.png";
+
 const Header = () => {
   return (
     <header className="absolute left-0 top-0 z-50 w-full">
       <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-8 md:px-16 lg:px-20">
         {/* Logo */}
-        <a
-          href="#"
-          className="flex items-center gap-2 text-[20px] font-bold text-[#16C784]"
-        >
-          <span className="text-[24px] font-black">t</span>
-          <span>TalkTo</span>
+        <a href="#" className="inline-flex items-center">
+          <img
+            src={talktoLogo}
+            alt="TalkTo"
+            className="h-[32px] w-auto object-contain"
+          />
         </a>
 
         {/* Navigation */}

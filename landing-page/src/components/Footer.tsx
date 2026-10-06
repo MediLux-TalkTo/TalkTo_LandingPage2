@@ -1,3 +1,5 @@
+import talktoLogo from "../assets/talkto-logo.png";
+
 const Footer = () => {
   return (
     <footer className="relative px-6 pb-10">
@@ -7,12 +9,12 @@ const Footer = () => {
 
         <div className="flex flex-col gap-5 py-7 md:flex-row md:items-center md:justify-between">
           {/* Logo */}
-          <a
-            href="#"
-            className="flex items-center gap-1.5 text-[14px] font-bold text-[#16C784]"
-          >
-            <span className="text-[17px] font-black">t</span>
-            <span>TalkTo</span>
+          <a href="#" className="inline-flex items-center">
+            <img
+              src={talktoLogo}
+              alt="TalkTo"
+              className="h-[28px] w-auto object-contain"
+            />
           </a>
 
           {/* Copyright */}
